@@ -1,0 +1,90 @@
+body {
+  font-family: Arial;
+  margin: 0;
+  background: #f3f5f9;
+}
+
+.navbar {
+  background: #111;
+  color: white;
+  padding: 18px;
+  font-size: 22px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.container {
+  padding: 30px;
+}
+
+.form-box {
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+
+label {
+  font-weight: bold;
+}
+
+select,
+input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 8px;
+  margin-bottom: 18px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background: #111;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #333;
+}
+
+.outfit-row {
+  background: white;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  flex-wrap: wrap;
+}
+
+.item {
+  text-align: center;
+}
+
+.item img {
+  width: 120px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.buy-btn {
+  background: #ff9900;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+.buy-btn:hover {
+  background: #e68a00;
+}

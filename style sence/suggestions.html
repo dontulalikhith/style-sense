@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Smart Outfit AI</title>
+    <link rel="stylesheet" href="suggestions.css" />
+  </head>
+
+  <body>
+    <div class="navbar">👗 Smart Outfit AI</div>
+
+    <div class="container">
+      <div class="panel">
+        <h3>Filters</h3>
+
+        <select id="gender">
+          <option value="men">Men</option>
+          <option value="women">Women</option>
+          <option value="kids">Kids</option>
+        </select>
+
+        <select id="skintone">
+          <option value="dark">Dark</option>
+          <option value="medium">Medium</option>
+          <option value="fair">Fair</option>
+        </select>
+
+        <select id="body">
+          <option value="heavy">Heavy</option>
+          <option value="average">Average</option>
+          <option value="slim">Slim</option>
+        </select>
+
+        <select id="occasion">
+          <option value="casual">Casual</option>
+          <option value="party">Party</option>
+          <option value="office">Office</option>
+        </select>
+
+        <select id="brand">
+          <option value="">All Brands</option>
+          <option>Chanel</option>
+          <option>Louis Vuitton</option>
+          <option>Hermès</option>
+          <option>Dior</option>
+          <option>Gucci</option>
+          <option>Prada</option>
+          <option>Saint Laurent</option>
+          <option>Balenciaga</option>
+        </select>
+
+        <button onclick="suggestOutfit()">Suggest Outfit</button>
+
+        <button onclick="showCombos()">Combo Suggestions</button>
+
+        <button onclick="skinToneColors()">Skin Tone Color Advice</button>
+      </div>
+
+      <div class="products" id="products"></div>
+    </div>
+
+    <script src="suggestions.js"></script>
+  </body>
+</html>

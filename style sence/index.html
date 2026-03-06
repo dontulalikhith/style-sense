@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>StyleSense AI Outfit Recommender</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="navbar">StyleSense AI Outfit Recommender</div>
+
+    <div class="container">
+      <div class="form-box">
+        <label>Upload Your Image</label>
+        <input type="file" />
+
+        <label>Gender</label>
+        <select id="gender">
+          <option value="Male">Male</option>
+          <option value="Female">Female</option>
+        </select>
+
+        <label>Budget</label>
+        <select id="budget">
+          <option value="2000">Under ₹2000</option>
+          <option value="5000">Under ₹5000</option>
+          <option value="10000">Under ₹10000</option>
+        </select>
+
+        <button onclick="window.location.href = 'suggestions.html'">
+          Get Outfit Suggestions
+        </button>
+      </div>
+
+      <div id="results"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
